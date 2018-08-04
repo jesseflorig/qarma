@@ -1,9 +1,9 @@
 # [WIP] Qarma
-An open source karma system for graphql implemented with custom `schema types`.
+An open source karma system for graphql implemented with custom `schema types`. A karma system is a way to incentivize users to self-police a community.
 
 _Potentially ship with custom resolvers and database_
 
-## Type Qarma Rating
+## Type: Qarma Rating
 Extend any `type` by giving it a `field` with type `QarmaRating`
 ```javascript
 type QarmaRating {
@@ -34,6 +34,7 @@ type QarmaUser {
   votes     : [ QarmaVote ] // List of all votes
 }
 ```
-## Aditional thoughts
+## Misc Thoughts
  - [ ] Karma based acheivments
+ - [ ] Karma based permissions (or just base it off acheivments?)
  - [ ] `type QarmaFlag` for flagging content
