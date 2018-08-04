@@ -1,2 +1,2 @@
-# karma-system
-An open source karma system
+# Graphql Karma
+An open source karma system for graphql
