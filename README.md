@@ -28,9 +28,9 @@ type QarmaVote {
 Extend your applications users by adding a `field` with type `QarmaUser`
 ```javascript
 type QarmaUser {
-  voteCount : Int // Number of times user voted
-  upCount   : Int // Number of times user upvoted
-  downCount : Int // Number of times user downvoted
+  voteCount : Int           // Number of times user voted
+  upCount   : Int           // Number of times user upvoted
+  downCount : Int           // Number of times user downvoted
   votes     : [ QarmaVote ] // List of all votes
 }
 ```
